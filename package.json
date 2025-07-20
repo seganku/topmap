@@ -1,0 +1,16 @@
+{
+  "name": "top-heroes-map",
+  "version": "1.0.0",
+  "description": "Collaborative territory map for Top Heroes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Montgomery Newcom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}

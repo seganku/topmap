@@ -1,0 +1,520 @@
+[
+  {
+    "Level": 1,
+    "Name": "Wind Stone",
+    "Coordinates": "16,44",
+    "Buff": "Ranch Yield Boost +10%",
+    "PathID": "region-23"
+  },
+  {
+    "Level": 1,
+    "Name": "Frost Ridge",
+    "Coordinates": "104,44",
+    "Buff": "Sawmill Yield Boost +10%",
+    "PathID": "region-22"
+  },
+  {
+    "Level": 1,
+    "Name": "Snowpeak",
+    "Coordinates": "163,25",
+    "Buff": "Mine Yield Boost +10%",
+    "PathID": "region-21"
+  },
+  {
+    "Level": 1,
+    "Name": "Ice Fields",
+    "Coordinates": "243,51",
+    "Buff": "Gathering Speed Boost +3%",
+    "PathID": "region-20"
+  },
+  {
+    "Level": 1,
+    "Name": "Rift",
+    "Coordinates": "337,19",
+    "Buff": "Marching Speed Boost +3%",
+    "PathID": "region-19"
+  },
+  {
+    "Level": 1,
+    "Name": "Hot Stone",
+    "Coordinates": "399,57",
+    "Buff": "Tech Research Speed +3%",
+    "PathID": "region-18"
+  },
+  {
+    "Level": 1,
+    "Name": "Volcano",
+    "Coordinates": "486,70",
+    "Buff": "Construction Speed +3%",
+    "PathID": "region-17"
+  },
+  {
+    "Level": 1,
+    "Name": "Lost Sands",
+    "Coordinates": "489,153",
+    "Buff": "Soldier Training Speed +3%",
+    "PathID": "region-16"
+  },
+  {
+    "Level": 1,
+    "Name": "Frost Ridge",
+    "Coordinates": "489,337",
+    "Buff": "Ranch Yield Boost +10%",
+    "PathID": "region-14"
+  },
+  {
+    "Level": 1,
+    "Name": "Haze Rain",
+    "Coordinates": "489,521",
+    "Buff": "Sawmill Yield Boost +10%",
+    "PathID": "region-12"
+  },
+  {
+    "Level": 1,
+    "Name": "Stream",
+    "Coordinates": "492,682",
+    "Buff": "Mine Yield Boost +10%",
+    "PathID": "region-10"
+  },
+  {
+    "Level": 1,
+    "Name": "Vine",
+    "Coordinates": "490,854",
+    "Buff": "Gathering Speed Boost +3%",
+    "PathID": "region-7"
+  },
+  {
+    "Level": 1,
+    "Name": "Rainforest",
+    "Coordinates": "484,978",
+    "Buff": "Marching Speed Boost +3%",
+    "PathID": "region-4"
+  },
+  {
+    "Level": 1,
+    "Name": "Cave",
+    "Coordinates": "409,961",
+    "Buff": "Tech Research Speed +3%",
+    "PathID": "region-3"
+  },
+  {
+    "Level": 1,
+    "Name": "Glacier",
+    "Coordinates": "329,991",
+    "Buff": "Construction Speed +3%",
+    "PathID": "region-1"
+  },
+  {
+    "Level": 1,
+    "Name": "Canyon",
+    "Coordinates": "259,981",
+    "Buff": "Soldier Training Speed +3%",
+    "PathID": "region-5"
+  },
+  {
+    "Level": 1,
+    "Name": "Swamp",
+    "Coordinates": "173,981",
+    "Buff": "Ranch Yield Boost +10%",
+    "PathID": "region-0"
+  },
+  {
+    "Level": 1,
+    "Name": "Karst",
+    "Coordinates": "99,975",
+    "Buff": "Sawmill Yield Boost +10%",
+    "PathID": "region-6"
+  },
+  {
+    "Level": 1,
+    "Name": "Reef",
+    "Coordinates": "25,981",
+    "Buff": "Mine Yield Boost +10%",
+    "PathID": "region-2"
+  },
+  {
+    "Level": 1,
+    "Name": "Salt Lake",
+    "Coordinates": "22,846",
+    "Buff": "Gathering Speed Boost +3%",
+    "PathID": "region-8"
+  },
+  {
+    "Level": 1,
+    "Name": "Tundra",
+    "Coordinates": "19,675",
+    "Buff": "Marching Speed Boost +3%",
+    "PathID": "region-9"
+  },
+  {
+    "Level": 1,
+    "Name": "River",
+    "Coordinates": "22,490",
+    "Buff": "Tech Research Speed +3%",
+    "PathID": "region-11"
+  },
+  {
+    "Level": 1,
+    "Name": "Coast",
+    "Coordinates": "18,350",
+    "Buff": "Construction Speed +3%",
+    "PathID": "region-13"
+  },
+  {
+    "Level": 1,
+    "Name": "Desert",
+    "Coordinates": "19,175",
+    "Buff": "Soldier Training Speed +3%",
+    "PathID": "region-15"
+  },
+  {
+    "Level": 2,
+    "Name": "Temple",
+    "Coordinates": "72,108",
+    "Buff": "Timber Gathering Speed +5%",
+    "PathID": "region-58"
+  },
+  {
+    "Level": 2,
+    "Name": "Altar",
+    "Coordinates": "179,89",
+    "Buff": "Stone Gathering Speed +5%",
+    "PathID": "region-62"
+  },
+  {
+    "Level": 2,
+    "Name": "Stele",
+    "Coordinates": "260,146",
+    "Buff": "Ruby Gathering Speed +5%",
+    "PathID": "region-60"
+  },
+  {
+    "Level": 2,
+    "Name": "Plaza",
+    "Coordinates": "334,92",
+    "Buff": "Soldier Healing Speed +5%",
+    "PathID": "region-61"
+  },
+  {
+    "Level": 2,
+    "Name": "Fountain",
+    "Coordinates": "422,124",
+    "Buff": "Decrease Soldier Losses by 5% On the Defensive",
+    "PathID": "region-59"
+  },
+  {
+    "Level": 2,
+    "Name": "Statue",
+    "Coordinates": "462,274",
+    "Buff": "Reduced Damage in World Map Battles +3%",
+    "PathID": "region-56"
+  },
+  {
+    "Level": 2,
+    "Name": "Bell Tower",
+    "Coordinates": "445,465",
+    "Buff": "Timber Gathering Speed +5%",
+    "PathID": "region-54"
+  },
+  {
+    "Level": 2,
+    "Name": "Shrine",
+    "Coordinates": "435,581",
+    "Buff": "Stone Gathering Speed +5%",
+    "PathID": "region-53"
+  },
+  {
+    "Level": 2,
+    "Name": "Church",
+    "Coordinates": "460,738",
+    "Buff": "Ruby Gathering Speed +5%",
+    "PathID": "region-51"
+  },
+  {
+    "Level": 2,
+    "Name": "Monastery",
+    "Coordinates": "444,898",
+    "Buff": "Soldier Healing Speed +5%",
+    "PathID": "region-47"
+  },
+  {
+    "Level": 2,
+    "Name": "Remnants",
+    "Coordinates": "323,925",
+    "Buff": "Decrease Soldier Losses by 5% On the Defensive",
+    "PathID": "region-46"
+  },
+  {
+    "Level": 2,
+    "Name": "Symbol",
+    "Coordinates": "249,867",
+    "Buff": "Reduced Damage in World Map Battles +3%",
+    "PathID": "region-49"
+  },
+  {
+    "Level": 2,
+    "Name": "Legend",
+    "Coordinates": "186,928",
+    "Buff": "Timber Gathering Speed +5%",
+    "PathID": "region-45"
+  },
+  {
+    "Level": 2,
+    "Name": "Faith",
+    "Coordinates": "66,912",
+    "Buff": "Stone Gathering Speed +5%",
+    "PathID": "region-48"
+  },
+  {
+    "Level": 2,
+    "Name": "Mystery",
+    "Coordinates": "54,752",
+    "Buff": "Ruby Gathering Speed +5%",
+    "PathID": "region-50"
+  },
+  {
+    "Level": 2,
+    "Name": "Sites",
+    "Coordinates": "50,606",
+    "Buff": "Soldier Healing Speed +5%",
+    "PathID": "region-52"
+  },
+  {
+    "Level": 2,
+    "Name": "Tradition",
+    "Coordinates": "67,433",
+    "Buff": "Decrease Soldier Losses by 5% On the Defensive",
+    "PathID": "region-55"
+  },
+  {
+    "Level": 2,
+    "Name": "Culture",
+    "Coordinates": "48,292",
+    "Buff": "Reduced Damage in World Map Battles +3%",
+    "PathID": "region-57"
+  },
+  {
+    "Level": 3,
+    "Name": "Old Well",
+    "Coordinates": "108,216",
+    "Buff": "Resource Yield Boost +10%",
+    "PathID": "region-42"
+  },
+  {
+    "Level": 3,
+    "Name": "City Wall",
+    "Coordinates": "175,139",
+    "Buff": "Marching Speed Boost +5%",
+    "PathID": "region-43"
+  },
+  {
+    "Level": 3,
+    "Name": "Sanctuary",
+    "Coordinates": "214,242",
+    "Buff": "Tech Research Speed +5%",
+    "PathID": "region-40"
+  },
+  {
+    "Level": 3,
+    "Name": "Stone Pillar",
+    "Coordinates": "294,204",
+    "Buff": "Construction Speed +5%",
+    "PathID": "region-41"
+  },
+  {
+    "Level": 3,
+    "Name": "Stele Grove",
+    "Coordinates": "368,172",
+    "Buff": "Soldier Training Speed +5%",
+    "PathID": "region-44"
+  },
+  {
+    "Level": 3,
+    "Name": "Aqueduct",
+    "Coordinates": "400,222",
+    "Buff": "Soldier Load +10%",
+    "PathID": "region-39"
+  },
+  {
+    "Level": 3,
+    "Name": "Cellar",
+    "Coordinates": "425,363",
+    "Buff": "Increased Damage in World Map Battles +5%",
+    "PathID": "region-37"
+  },
+  {
+    "Level": 3,
+    "Name": "Tomb",
+    "Coordinates": "403,599",
+    "Buff": "Stamina Cap +10",
+    "PathID": "region-36"
+  },
+  {
+    "Level": 3,
+    "Name": "Sacrifice",
+    "Coordinates": "422,714",
+    "Buff": "Resource Yield Boost +10%",
+    "PathID": "region-34"
+  },
+  {
+    "Level": 3,
+    "Name": "Well",
+    "Coordinates": "403,813",
+    "Buff": "Marching Speed Boost +5%",
+    "PathID": "region-32"
+  },
+  {
+    "Level": 3,
+    "Name": "Stone Wall",
+    "Coordinates": "336,854",
+    "Buff": "Tech Research Speed +5%",
+    "PathID": "region-29"
+  },
+  {
+    "Level": 3,
+    "Name": "Garden",
+    "Coordinates": "214,816",
+    "Buff": "Construction Speed +5%",
+    "PathID": "region-31"
+  },
+  {
+    "Level": 3,
+    "Name": "Royalty",
+    "Coordinates": "137,851",
+    "Buff": "Soldier Training Speed +5%",
+    "PathID": "region-30"
+  },
+  {
+    "Level": 3,
+    "Name": "Warrior",
+    "Coordinates": "108,804",
+    "Buff": "Soldier Load +10%",
+    "PathID": "region-33"
+  },
+  {
+    "Level": 3,
+    "Name": "Honor",
+    "Coordinates": "83,605",
+    "Buff": "Increased Damage in World Map Battles +5%",
+    "PathID": "region-35"
+  },
+  {
+    "Level": 3,
+    "Name": "Esteem",
+    "Coordinates": "86,326",
+    "Buff": "Stamina Cap +10",
+    "PathID": "region-38"
+  },
+  {
+    "Level": 4,
+    "Name": "Castle",
+    "Coordinates": "134,286",
+    "Buff": "Soldier Healing Speed +15%",
+    "PathID": "region-72"
+  },
+  {
+    "Level": 4,
+    "Name": "Battlefield",
+    "Coordinates": "201,293",
+    "Buff": "Gathering Speed Boost +10%",
+    "PathID": "region-70"
+  },
+  {
+    "Level": 4,
+    "Name": "Warflames",
+    "Coordinates": "332,280",
+    "Buff": "Reduced Damage in World Map Battles +5%",
+    "PathID": "region-71"
+  },
+  {
+    "Level": 4,
+    "Name": "Barracks",
+    "Coordinates": "380,332",
+    "Buff": "Increased Damage in World Map Battles +5%",
+    "PathID": "region-69"
+  },
+  {
+    "Level": 4,
+    "Name": "Conquest",
+    "Coordinates": "374,490",
+    "Buff": "Decrease Soldier Losses by 5%",
+    "PathID": "region-67"
+  },
+  {
+    "Level": 4,
+    "Name": "Dominion",
+    "Coordinates": "361,669",
+    "Buff": "Soldier Healing Speed +15%",
+    "PathID": "region-66"
+  },
+  {
+    "Level": 4,
+    "Name": "War",
+    "Coordinates": "310,816",
+    "Buff": "Gathering Speed Boost +10%",
+    "PathID": "region-63"
+  },
+  {
+    "Level": 4,
+    "Name": "Fortress",
+    "Coordinates": "198,730",
+    "Buff": "Reduced Damage in World Map Battles +5%",
+    "PathID": "region-64"
+  },
+  {
+    "Level": 4,
+    "Name": "Defence",
+    "Coordinates": "116,694",
+    "Buff": "Increased Damage in World Map Battles +5%",
+    "PathID": "region-68"
+  },
+  {
+    "Level": 4,
+    "Name": "Trench",
+    "Coordinates": "115,503",
+    "Buff": "Decrease Soldier Losses by 5% When Attacking",
+    "PathID": "region-68"
+  },
+  {
+    "Level": 5,
+    "Name": "Guardian",
+    "Coordinates": "257,337",
+    "Buff": "Guild can refresh guardians in this area",
+    "PathID": "region-28"
+  },
+  {
+    "Level": 5,
+    "Name": "Treasure",
+    "Coordinates": "329,481",
+    "Buff": "Guild can refresh resources in this area",
+    "PathID": "region-26"
+  },
+  {
+    "Level": 5,
+    "Name": "Guard",
+    "Coordinates": "290,708",
+    "Buff": "Guild can refresh guardians in this area",
+    "PathID": "region-25"
+  },
+  {
+    "Level": 5,
+    "Name": "Resource",
+    "Coordinates": "182,654",
+    "Buff": "Guild can refresh resources in this area",
+    "PathID": "region-24"
+  },
+  {
+    "Level": 5,
+    "Name": "Shelter",
+    "Coordinates": "169,459",
+    "Buff": "Guild can refresh guardians in this area",
+    "PathID": "region-27"
+  },
+  {
+    "Level": 6,
+    "Name": "Throne",
+    "Coordinates": "256,516",
+    "Buff": "King Privileges",
+    "PathID": "region-73"
+  }
+]

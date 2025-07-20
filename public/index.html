@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Top Heroes Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script>
+    if (window.location.pathname === "/") {
+      const randomKey = [...Array(12)].map(() => Math.random().toString(36)[2]).join('');
+      window.location.href = `/${randomKey}`;
+    }
+  </script>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <div id="tooltip" style="
+      position: fixed;
+      background: rgba(0,0,0,0.85);
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 1000;">
+  </div>
+  <div class="main-layout">
+    <div class="sidebar">
+      <h1>Top Heroes Map</h1>
+      <div class="new-link">
+        <form action="/" method="get">
+          <button type="submit">🆕 New Map</button>
+        </form>
+      </div>
+
+      <div class="controls">
+        <label for="colorPicker">Select Color:</label>
+        <input type="color" id="colorPicker" value="#ff0000">
+
+        <div class="swatches">
+          <div id="defaultColors" class="swatch-row"></div>
+          <div id="customColors" class="swatch-row"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mapWrapper">
+      <div id="mapContainer">
+        <!-- SVG goes here -->
+      </div>
+      <img id="labelOverlay" src="labels.png" alt="Region Labels Overlay" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+

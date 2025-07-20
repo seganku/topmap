@@ -1,0 +1,32 @@
+# .gitignore
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# OS junk
+Thumbs.db
+
+# Anything else you don’t want:
+logs/
+*.log
+temp/
+.bash*
+.ssh/
+backup.sh
+restart.sh
+tail.sh
+.npm/
+.git/
+state/
+.old/
