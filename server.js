@@ -70,6 +70,11 @@ io.on('connection', (socket) => {
   socket.on('update', ({ key, regionId, color }) => {
     socket.to(key).emit('update', { regionId, color });
   });
+
+  socket.on('customColorsUpdate', ({ key }) => {
+    socket.to(key).emit('customColorsUpdate');
+  });
+
 });
 
 // Start servers

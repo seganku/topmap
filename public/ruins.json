@@ -4,517 +4,665 @@
     "Name": "Wind Stone",
     "Coordinates": "16,44",
     "Buff": "Ranch Yield Boost +10%",
-    "PathID": "region-23"
+    "PathID": "region-23",
+    "CentroidX": 127.19,
+    "CentroidY": 126.53
   },
   {
     "Level": 1,
     "Name": "Frost Ridge",
     "Coordinates": "104,44",
     "Buff": "Sawmill Yield Boost +10%",
-    "PathID": "region-22"
+    "PathID": "region-22",
+    "CentroidX": 440.08,
+    "CentroidY": 114.17
   },
   {
     "Level": 1,
     "Name": "Snowpeak",
     "Coordinates": "163,25",
     "Buff": "Mine Yield Boost +10%",
-    "PathID": "region-21"
+    "PathID": "region-21",
+    "CentroidX": 766.13,
+    "CentroidY": 68.19
   },
   {
     "Level": 1,
     "Name": "Ice Fields",
     "Coordinates": "243,51",
     "Buff": "Gathering Speed Boost +3%",
-    "PathID": "region-20"
+    "PathID": "region-20",
+    "CentroidX": 1091.36,
+    "CentroidY": 122.4
   },
   {
     "Level": 1,
     "Name": "Rift",
     "Coordinates": "337,19",
     "Buff": "Marching Speed Boost +3%",
-    "PathID": "region-19"
+    "PathID": "region-19",
+    "CentroidX": 1446.41,
+    "CentroidY": 66.83
   },
   {
     "Level": 1,
     "Name": "Hot Stone",
     "Coordinates": "399,57",
     "Buff": "Tech Research Speed +3%",
-    "PathID": "region-18"
+    "PathID": "region-18",
+    "CentroidX": 1794.78,
+    "CentroidY": 100.09
   },
   {
     "Level": 1,
     "Name": "Volcano",
     "Coordinates": "486,70",
     "Buff": "Construction Speed +3%",
-    "PathID": "region-17"
+    "PathID": "region-17",
+    "CentroidX": 2096.07,
+    "CentroidY": 127.43
   },
   {
     "Level": 1,
     "Name": "Lost Sands",
     "Coordinates": "489,153",
     "Buff": "Soldier Training Speed +3%",
-    "PathID": "region-16"
+    "PathID": "region-16",
+    "CentroidX": 2096.6,
+    "CentroidY": 398.49
   },
   {
     "Level": 1,
     "Name": "Frost Ridge",
     "Coordinates": "489,337",
     "Buff": "Ranch Yield Boost +10%",
-    "PathID": "region-14"
+    "PathID": "region-14",
+    "CentroidX": 2135.95,
+    "CentroidY": 780.72
   },
   {
     "Level": 1,
     "Name": "Haze Rain",
     "Coordinates": "489,521",
     "Buff": "Sawmill Yield Boost +10%",
-    "PathID": "region-12"
+    "PathID": "region-12",
+    "CentroidX": 2103.14,
+    "CentroidY": 1109.7
   },
   {
     "Level": 1,
     "Name": "Stream",
     "Coordinates": "492,682",
     "Buff": "Mine Yield Boost +10%",
-    "PathID": "region-10"
+    "PathID": "region-10",
+    "CentroidX": 2130.63,
+    "CentroidY": 1445.56
   },
   {
     "Level": 1,
     "Name": "Vine",
     "Coordinates": "490,854",
     "Buff": "Gathering Speed Boost +3%",
-    "PathID": "region-7"
+    "PathID": "region-7",
+    "CentroidX": 2123.98,
+    "CentroidY": 1808.84
   },
   {
     "Level": 1,
     "Name": "Rainforest",
     "Coordinates": "484,978",
     "Buff": "Marching Speed Boost +3%",
-    "PathID": "region-4"
+    "PathID": "region-4",
+    "CentroidX": 2086.62,
+    "CentroidY": 2093.8
   },
   {
     "Level": 1,
     "Name": "Cave",
     "Coordinates": "409,961",
     "Buff": "Tech Research Speed +3%",
-    "PathID": "region-3"
+    "PathID": "region-3",
+    "CentroidX": 1778.13,
+    "CentroidY": 2089.21
   },
   {
     "Level": 1,
     "Name": "Glacier",
     "Coordinates": "329,991",
     "Buff": "Construction Speed +3%",
-    "PathID": "region-1"
+    "PathID": "region-1",
+    "CentroidX": 1469.63,
+    "CentroidY": 2134.51
   },
   {
     "Level": 1,
     "Name": "Canyon",
     "Coordinates": "259,981",
     "Buff": "Soldier Training Speed +3%",
-    "PathID": "region-5"
+    "PathID": "region-5",
+    "CentroidX": 1134.13,
+    "CentroidY": 2089.81
   },
   {
     "Level": 1,
     "Name": "Swamp",
     "Coordinates": "173,981",
     "Buff": "Ranch Yield Boost +10%",
-    "PathID": "region-0"
+    "PathID": "region-0",
+    "CentroidX": 742.59,
+    "CentroidY": 2146.63
   },
   {
     "Level": 1,
     "Name": "Karst",
     "Coordinates": "99,975",
     "Buff": "Sawmill Yield Boost +10%",
-    "PathID": "region-6"
+    "PathID": "region-6",
+    "CentroidX": 439.83,
+    "CentroidY": 2085.74
   },
   {
     "Level": 1,
     "Name": "Reef",
     "Coordinates": "25,981",
     "Buff": "Mine Yield Boost +10%",
-    "PathID": "region-2"
+    "PathID": "region-2",
+    "CentroidX": 118.59,
+    "CentroidY": 2105.6
   },
   {
     "Level": 1,
     "Name": "Salt Lake",
     "Coordinates": "22,846",
     "Buff": "Gathering Speed Boost +3%",
-    "PathID": "region-8"
+    "PathID": "region-8",
+    "CentroidX": 107.79,
+    "CentroidY": 1824.12
   },
   {
     "Level": 1,
     "Name": "Tundra",
     "Coordinates": "19,675",
     "Buff": "Marching Speed Boost +3%",
-    "PathID": "region-9"
+    "PathID": "region-9",
+    "CentroidX": 68.95,
+    "CentroidY": 1461.74
   },
   {
     "Level": 1,
     "Name": "River",
     "Coordinates": "22,490",
     "Buff": "Tech Research Speed +3%",
-    "PathID": "region-11"
+    "PathID": "region-11",
+    "CentroidX": 100.89,
+    "CentroidY": 1110.16
   },
   {
     "Level": 1,
     "Name": "Coast",
     "Coordinates": "18,350",
     "Buff": "Construction Speed +3%",
-    "PathID": "region-13"
+    "PathID": "region-13",
+    "CentroidX": 91.28,
+    "CentroidY": 822.37
   },
   {
     "Level": 1,
     "Name": "Desert",
     "Coordinates": "19,175",
     "Buff": "Soldier Training Speed +3%",
-    "PathID": "region-15"
+    "PathID": "region-15",
+    "CentroidX": 111.9,
+    "CentroidY": 450.38
   },
   {
     "Level": 2,
     "Name": "Temple",
     "Coordinates": "72,108",
     "Buff": "Timber Gathering Speed +5%",
-    "PathID": "region-58"
+    "PathID": "region-58",
+    "CentroidX": 306.38,
+    "CentroidY": 264.25
   },
   {
     "Level": 2,
     "Name": "Altar",
     "Coordinates": "179,89",
     "Buff": "Stone Gathering Speed +5%",
-    "PathID": "region-62"
+    "PathID": "region-62",
+    "CentroidX": 789.95,
+    "CentroidY": 202.43
   },
   {
     "Level": 2,
     "Name": "Stele",
     "Coordinates": "260,146",
     "Buff": "Ruby Gathering Speed +5%",
-    "PathID": "region-60"
+    "PathID": "region-60",
+    "CentroidX": 1141.47,
+    "CentroidY": 304.7
   },
   {
     "Level": 2,
     "Name": "Plaza",
     "Coordinates": "334,92",
     "Buff": "Soldier Healing Speed +5%",
-    "PathID": "region-61"
+    "PathID": "region-61",
+    "CentroidX": 1437.74,
+    "CentroidY": 186.45
   },
   {
     "Level": 2,
     "Name": "Fountain",
     "Coordinates": "422,124",
     "Buff": "Decrease Soldier Losses by 5% On the Defensive",
-    "PathID": "region-59"
+    "PathID": "region-59",
+    "CentroidX": 1863.36,
+    "CentroidY": 296.64
   },
   {
     "Level": 2,
     "Name": "Statue",
     "Coordinates": "462,274",
     "Buff": "Reduced Damage in World Map Battles +3%",
-    "PathID": "region-56"
+    "PathID": "region-56",
+    "CentroidX": 2016.06,
+    "CentroidY": 616.88
   },
   {
     "Level": 2,
     "Name": "Bell Tower",
     "Coordinates": "445,465",
     "Buff": "Timber Gathering Speed +5%",
-    "PathID": "region-54"
+    "PathID": "region-54",
+    "CentroidX": 1941.11,
+    "CentroidY": 973.23
   },
   {
     "Level": 2,
     "Name": "Shrine",
     "Coordinates": "435,581",
     "Buff": "Stone Gathering Speed +5%",
-    "PathID": "region-53"
+    "PathID": "region-53",
+    "CentroidX": 1922.85,
+    "CentroidY": 1266.98
   },
   {
     "Level": 2,
     "Name": "Church",
     "Coordinates": "460,738",
     "Buff": "Ruby Gathering Speed +5%",
-    "PathID": "region-51"
+    "PathID": "region-51",
+    "CentroidX": 1995.42,
+    "CentroidY": 1595.26
   },
   {
     "Level": 2,
     "Name": "Monastery",
     "Coordinates": "444,898",
     "Buff": "Soldier Healing Speed +5%",
-    "PathID": "region-47"
+    "PathID": "region-47",
+    "CentroidX": 1930.12,
+    "CentroidY": 1926.77
   },
   {
     "Level": 2,
     "Name": "Remnants",
     "Coordinates": "323,925",
     "Buff": "Decrease Soldier Losses by 5% On the Defensive",
-    "PathID": "region-46"
+    "PathID": "region-46",
+    "CentroidX": 1415.88,
+    "CentroidY": 1998.56
   },
   {
     "Level": 2,
     "Name": "Symbol",
     "Coordinates": "249,867",
     "Buff": "Reduced Damage in World Map Battles +3%",
-    "PathID": "region-49"
+    "PathID": "region-49",
+    "CentroidX": 1084.54,
+    "CentroidY": 1914.83
   },
   {
     "Level": 2,
     "Name": "Legend",
     "Coordinates": "186,928",
     "Buff": "Timber Gathering Speed +5%",
-    "PathID": "region-45"
+    "PathID": "region-45",
+    "CentroidX": 785.24,
+    "CentroidY": 2025.58
   },
   {
     "Level": 2,
     "Name": "Faith",
     "Coordinates": "66,912",
     "Buff": "Stone Gathering Speed +5%",
-    "PathID": "region-48"
+    "PathID": "region-48",
+    "CentroidX": 304.64,
+    "CentroidY": 1939.59
   },
   {
     "Level": 2,
     "Name": "Mystery",
     "Coordinates": "54,752",
     "Buff": "Ruby Gathering Speed +5%",
-    "PathID": "region-50"
+    "PathID": "region-50",
+    "CentroidX": 246.06,
+    "CentroidY": 1631.16
   },
   {
     "Level": 2,
     "Name": "Sites",
     "Coordinates": "50,606",
     "Buff": "Soldier Healing Speed +5%",
-    "PathID": "region-52"
+    "PathID": "region-52",
+    "CentroidX": 211.6,
+    "CentroidY": 1326.88
   },
   {
     "Level": 2,
     "Name": "Tradition",
     "Coordinates": "67,433",
     "Buff": "Decrease Soldier Losses by 5% On the Defensive",
-    "PathID": "region-55"
+    "PathID": "region-55",
+    "CentroidX": 270.86,
+    "CentroidY": 977.76
   },
   {
     "Level": 2,
     "Name": "Culture",
     "Coordinates": "48,292",
     "Buff": "Reduced Damage in World Map Battles +3%",
-    "PathID": "region-57"
+    "PathID": "region-57",
+    "CentroidX": 224.03,
+    "CentroidY": 616.73
   },
   {
     "Level": 3,
     "Name": "Old Well",
     "Coordinates": "108,216",
     "Buff": "Resource Yield Boost +10%",
-    "PathID": "region-42"
+    "PathID": "region-42",
+    "CentroidX": 442.84,
+    "CentroidY": 434.32
   },
   {
     "Level": 3,
     "Name": "City Wall",
     "Coordinates": "175,139",
     "Buff": "Marching Speed Boost +5%",
-    "PathID": "region-43"
+    "PathID": "region-43",
+    "CentroidX": 761.03,
+    "CentroidY": 343.31
   },
   {
     "Level": 3,
     "Name": "Sanctuary",
     "Coordinates": "214,242",
     "Buff": "Tech Research Speed +5%",
-    "PathID": "region-40"
+    "PathID": "region-40",
+    "CentroidX": 884.36,
+    "CentroidY": 487.49
   },
   {
     "Level": 3,
     "Name": "Stone Pillar",
     "Coordinates": "294,204",
     "Buff": "Construction Speed +5%",
-    "PathID": "region-41"
+    "PathID": "region-41",
+    "CentroidX": 1254.98,
+    "CentroidY": 451.2
   },
   {
     "Level": 3,
     "Name": "Stele Grove",
     "Coordinates": "368,172",
     "Buff": "Soldier Training Speed +5%",
-    "PathID": "region-44"
+    "PathID": "region-44",
+    "CentroidX": 1559.58,
+    "CentroidY": 328.54
   },
   {
     "Level": 3,
     "Name": "Aqueduct",
     "Coordinates": "400,222",
     "Buff": "Soldier Load +10%",
-    "PathID": "region-39"
+    "PathID": "region-39",
+    "CentroidX": 1727.98,
+    "CentroidY": 518.89
   },
   {
     "Level": 3,
     "Name": "Cellar",
     "Coordinates": "425,363",
     "Buff": "Increased Damage in World Map Battles +5%",
-    "PathID": "region-37"
+    "PathID": "region-37",
+    "CentroidX": 1853.5,
+    "CentroidY": 785.98
   },
   {
     "Level": 3,
     "Name": "Tomb",
     "Coordinates": "403,599",
     "Buff": "Stamina Cap +10",
-    "PathID": "region-36"
+    "PathID": "region-36",
+    "CentroidX": 1730.13,
+    "CentroidY": 1308.35
   },
   {
     "Level": 3,
     "Name": "Sacrifice",
     "Coordinates": "422,714",
     "Buff": "Resource Yield Boost +10%",
-    "PathID": "region-34"
+    "PathID": "region-34",
+    "CentroidX": 1781.54,
+    "CentroidY": 1567.93
   },
   {
     "Level": 3,
     "Name": "Well",
     "Coordinates": "403,813",
     "Buff": "Marching Speed Boost +5%",
-    "PathID": "region-32"
+    "PathID": "region-32",
+    "CentroidX": 1773.73,
+    "CentroidY": 1794.45
   },
   {
     "Level": 3,
     "Name": "Stone Wall",
     "Coordinates": "336,854",
     "Buff": "Tech Research Speed +5%",
-    "PathID": "region-29"
+    "PathID": "region-29",
+    "CentroidX": 1451.41,
+    "CentroidY": 1877.2
   },
   {
     "Level": 3,
     "Name": "Garden",
     "Coordinates": "214,816",
     "Buff": "Construction Speed +5%",
-    "PathID": "region-31"
+    "PathID": "region-31",
+    "CentroidX": 927.97,
+    "CentroidY": 1832.68
   },
   {
     "Level": 3,
     "Name": "Royalty",
     "Coordinates": "137,851",
     "Buff": "Soldier Training Speed +5%",
-    "PathID": "region-30"
+    "PathID": "region-30",
+    "CentroidX": 637.42,
+    "CentroidY": 1869.08
   },
   {
     "Level": 3,
     "Name": "Warrior",
     "Coordinates": "108,804",
     "Buff": "Soldier Load +10%",
-    "PathID": "region-33"
+    "PathID": "region-33",
+    "CentroidX": 477.44,
+    "CentroidY": 1726.73
   },
   {
     "Level": 3,
     "Name": "Honor",
     "Coordinates": "83,605",
     "Buff": "Increased Damage in World Map Battles +5%",
-    "PathID": "region-35"
+    "PathID": "region-35",
+    "CentroidX": 345.47,
+    "CentroidY": 1331.56
   },
   {
     "Level": 3,
     "Name": "Esteem",
     "Coordinates": "86,326",
     "Buff": "Stamina Cap +10",
-    "PathID": "region-38"
+    "PathID": "region-38",
+    "CentroidX": 400.61,
+    "CentroidY": 712.46
   },
   {
     "Level": 4,
     "Name": "Castle",
     "Coordinates": "134,286",
     "Buff": "Soldier Healing Speed +15%",
-    "PathID": "region-72"
+    "PathID": "region-72",
+    "CentroidX": 607.3,
+    "CentroidY": 618.0
   },
   {
     "Level": 4,
     "Name": "Battlefield",
     "Coordinates": "201,293",
     "Buff": "Gathering Speed Boost +10%",
-    "PathID": "region-70"
+    "PathID": "region-70",
+    "CentroidX": 849.88,
+    "CentroidY": 679.79
   },
   {
     "Level": 4,
     "Name": "Warflames",
     "Coordinates": "332,280",
     "Buff": "Reduced Damage in World Map Battles +5%",
-    "PathID": "region-71"
+    "PathID": "region-71",
+    "CentroidX": 1423.49,
+    "CentroidY": 632.46
   },
   {
     "Level": 4,
     "Name": "Barracks",
     "Coordinates": "380,332",
     "Buff": "Increased Damage in World Map Battles +5%",
-    "PathID": "region-69"
+    "PathID": "region-69",
+    "CentroidX": 1653.39,
+    "CentroidY": 724.34
   },
   {
     "Level": 4,
     "Name": "Conquest",
     "Coordinates": "374,490",
     "Buff": "Decrease Soldier Losses by 5%",
-    "PathID": "region-67"
+    "PathID": "region-67",
+    "CentroidX": 1652.84,
+    "CentroidY": 1064.81
   },
   {
     "Level": 4,
     "Name": "Dominion",
     "Coordinates": "361,669",
     "Buff": "Soldier Healing Speed +15%",
-    "PathID": "region-66"
+    "PathID": "region-66",
+    "CentroidX": 1536.05,
+    "CentroidY": 1465.79
   },
   {
     "Level": 4,
     "Name": "War",
     "Coordinates": "310,816",
     "Buff": "Gathering Speed Boost +10%",
-    "PathID": "region-63"
+    "PathID": "region-63",
+    "CentroidX": 1328.82,
+    "CentroidY": 1726.64
   },
   {
     "Level": 4,
     "Name": "Fortress",
     "Coordinates": "198,730",
     "Buff": "Reduced Damage in World Map Battles +5%",
-    "PathID": "region-64"
+    "PathID": "region-64",
+    "CentroidX": 847.35,
+    "CentroidY": 1648.16
   },
   {
     "Level": 4,
     "Name": "Defence",
     "Coordinates": "116,694",
     "Buff": "Increased Damage in World Map Battles +5%",
-    "PathID": "region-68"
+    "PathID": "region-68",
+    "CentroidX": 496.2,
+    "CentroidY": 1083.21
   },
   {
     "Level": 4,
     "Name": "Trench",
     "Coordinates": "115,503",
     "Buff": "Decrease Soldier Losses by 5% When Attacking",
-    "PathID": "region-68"
+    "PathID": "region-68",
+    "CentroidX": 496.2,
+    "CentroidY": 1083.21
   },
   {
     "Level": 5,
     "Name": "Guardian",
     "Coordinates": "257,337",
     "Buff": "Guild can refresh guardians in this area",
-    "PathID": "region-28"
+    "PathID": "region-28",
+    "CentroidX": 1115.78,
+    "CentroidY": 779.79
   },
   {
     "Level": 5,
     "Name": "Treasure",
     "Coordinates": "329,481",
     "Buff": "Guild can refresh resources in this area",
-    "PathID": "region-26"
+    "PathID": "region-26",
+    "CentroidX": 1424.16,
+    "CentroidY": 1064.51
   },
   {
     "Level": 5,
     "Name": "Guard",
     "Coordinates": "290,708",
     "Buff": "Guild can refresh guardians in this area",
-    "PathID": "region-25"
+    "PathID": "region-25",
+    "CentroidX": 1250.54,
+    "CentroidY": 1499.63
   },
   {
     "Level": 5,
     "Name": "Resource",
     "Coordinates": "182,654",
     "Buff": "Guild can refresh resources in this area",
-    "PathID": "region-24"
+    "PathID": "region-24",
+    "CentroidX": 842.49,
+    "CentroidY": 1402.86
   },
   {
     "Level": 5,
     "Name": "Shelter",
     "Coordinates": "169,459",
     "Buff": "Guild can refresh guardians in this area",
-    "PathID": "region-27"
+    "PathID": "region-27",
+    "CentroidX": 756.67,
+    "CentroidY": 1048.68
   },
   {
     "Level": 6,
     "Name": "Throne",
     "Coordinates": "256,516",
     "Buff": "King Privileges",
-    "PathID": "region-73"
+    "PathID": "region-73",
+    "CentroidX": 1103.9,
+    "CentroidY": 1111.49
   }
 ]

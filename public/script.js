@@ -1,12 +1,68 @@
+
+function hexToHSL(hex) {
+  let r = parseInt(hex.slice(0, 2), 16) / 255;
+  let g = parseInt(hex.slice(2, 4), 16) / 255;
+  let b = parseInt(hex.slice(4, 6), 16) / 255;
+
+  let max = Math.max(r, g, b), min = Math.min(r, g, b);
+  let h, s, l = (max + min) / 2;
+
+  if (max === min) {
+    h = s = 0;
+  } else {
+    let d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    switch (max) {
+      case r: h = ((g - b) / d + (g < b ? 6 : 0)); break;
+      case g: h = ((b - r) / d + 2); break;
+      case b: h = ((r - g) / d + 4); break;
+    }
+    h *= 60;
+  }
+
+  return { h, s, l };
+}
+
+function hslToHex(h, s, l) {
+  s = Math.max(0, Math.min(1, s));
+  l = Math.max(0, Math.min(1, l));
+
+  let c = (1 - Math.abs(2 * l - 1)) * s;
+  let x = c * (1 - Math.abs((h / 60) % 2 - 1));
+  let m = l - c / 2;
+
+  let r = 0, g = 0, b = 0;
+  if (h < 60)      { r = c; g = x; b = 0; }
+  else if (h < 120){ r = x; g = c; b = 0; }
+  else if (h < 180){ r = 0; g = c; b = x; }
+  else if (h < 240){ r = 0; g = x; b = c; }
+  else if (h < 300){ r = x; g = 0; b = c; }
+  else             { r = c; g = 0; b = x; }
+
+  let toHex = n => Math.round((n + m) * 255).toString(16).padStart(2, '0');
+  return toHex(r) + toHex(g) + toHex(b);
+}
+
+function generateHighlight(mainHex) {
+  mainHex = mainHex.replace(/^#/, '');
+  let { h, s, l } = hexToHSL(mainHex);
+  h = (h + 10) % 360;
+  s = s * 0.8;
+  l = Math.min(1, l * 1.2);
+  //return '#' + hslToHex(h, s, l);
+  return '#' + mainHex;
+}
+
+
 /* global fetch, document, io */
 'use strict';
 
 const colorPicker   = document.getElementById('colorPicker');
 const mapContainer  = document.getElementById('mapContainer');
 
-let state = {};                 
+let state = {};
 let ruinData = {};  // key: PathID -> { Level, Name, Coordinates, Buff }
-const originalFills = {};       
+const originalFills = {};
 
 const sessionKey = window.location.pathname.split('/')[1] || 'default';
 const socket = io();  // Connect to server
@@ -14,9 +70,22 @@ const socket = io();  // Connect to server
 socket.emit('join', sessionKey);  // Join room for this key
 
 socket.on('update', ({ regionId, color }) => {
+  console.log("Update event received for ", regionId);
   const el = document.getElementById(regionId);
   if (el) {
     el.setAttribute('fill', color || originalFills[regionId] || 'transparent');
+    if (color) {
+      const highlight = generateHighlight(color);
+      console.log("Color:", color, "Highlight:", highlight);
+      el.setAttribute('stroke', highlight);
+      el.setAttribute('stroke-width', '15');
+      el.setAttribute('stroke-linejoin', 'round');
+      el.setAttribute('vector-effect', 'non-scaling-stroke');
+    } else {
+      el.removeAttribute('stroke');
+      el.removeAttribute('stroke-width');
+      el.removeAttribute('vector-effect');
+    }
     if (color) {
       state[regionId] = color;
     } else {
@@ -52,7 +121,28 @@ function colorRegion(path, color) {
   const id = path.getAttribute('id');
   if (!id) return;
 
-  path.setAttribute('fill', color);
+  const svg = document.querySelector('svg');
+  const defs = svg.querySelector('defs') || svg.insertBefore(document.createElementNS("http://www.w3.org/2000/svg", "defs"), svg.firstChild);
+  const gradId = `grad-${id}`;
+  let grad = document.getElementById(gradId);
+  if (grad) grad.remove();
+
+  const highlight = generateHighlight(color);
+  console.log("ColorRegion ", id, " Color:", color, "Highlight:", highlight);
+  grad = document.createElementNS("http://www.w3.org/2000/svg", "radialGradient");
+  grad.setAttribute("id", gradId);
+  grad.setAttribute("gradientUnits", "userSpaceOnUse");
+  grad.setAttribute("cx", "0");
+  grad.setAttribute("cy", "0");
+  grad.setAttribute("r", "150");
+  grad.innerHTML = `
+    <stop offset="0%" stop-color="${color}" />
+    <stop offset="100%" stop-color="${highlight}" />
+  `;
+  defs.appendChild(grad);
+
+  path.setAttribute("fill", `url(#${gradId})`);
+
   state[id] = color;
   saveState();
   socket.emit('update', { key: sessionKey, regionId: id, color });
@@ -212,7 +302,30 @@ async function initMap() {
       tooltip.style.display = 'none';
     });
   });
+
+fetch('ruins.json')
+  .then(res => res.json())
+  .then(ruins => {
+    const svg = document.querySelector('#mapContainer svg');
+    if (!svg) {
+      console.warn("SVG not found in #mapContainer");
+      return;
+    }
+
+    //ruins.forEach(({ CentroidX, CentroidY }) => {
+    //  const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    //  circle.setAttribute('cx', CentroidX);
+    //  circle.setAttribute('cy', CentroidY);
+    //  circle.setAttribute('r', 7.5);
+    //  circle.setAttribute('fill', 'red');
+    //  circle.setAttribute('stroke', 'black');
+    //  circle.setAttribute('stroke-width', '1');
+    //  svg.appendChild(circle);
+    //});
+  });
+
+
+
 }
 
 initMap();
-
